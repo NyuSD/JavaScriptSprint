@@ -1,6 +1,18 @@
 fetch('json.json')
     .then(response => response.json())
     .then(json => {
+        json.forEach(element => {
+            console.log(element);
+        });
+    })
+    .catch(error => {
+        console.error(error);
+    });
+
+
+fetch('json.json')
+    .then(response => response.json())
+    .then(json => {
         console.log(json);
         const outputDiv = document.getElementById('output');
         outputDiv.innerHTML = `
