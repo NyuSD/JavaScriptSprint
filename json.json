@@ -1,0 +1,39 @@
+[
+    {
+        "orderid": 100,
+        "ordercost": 170,
+        "shipped": true,
+        "customername": "John Doe"
+    },
+    {
+        "orderid": 101,
+        "ordercost": 250,
+        "shipped": true,
+        "customername": "Sally Smith"
+    },
+    {
+        "orderid": 103,
+        "ordercost": 725,
+        "shipped": false,
+        "customername": "David Johnson"
+    },
+    {
+        "orderid": 104,
+        "ordercost": 952,
+        "shipped": false,
+        "customername": "Sarah White"
+    },
+    {
+        "orderid": 105,
+        "ordercost": 50,
+        "shipped": false,
+        "customername": "Jane Black"
+    },
+    {
+        "orderid": 106,
+        "ordercost": 570,
+        "shipped": false,
+        "customername": "Mohad Singh"
+    }
+
+]
